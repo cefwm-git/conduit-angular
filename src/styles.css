@@ -13,3 +13,18 @@ body {
 a {
   text-decoration: none;
 }
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.col {
+  flex: auto;
+}
+.no-flex {
+  flex: none;
+}
+@media(max-width: 767px) {
+  .row.sm-vertical {
+    flex-direction: column;
+  }
+}
