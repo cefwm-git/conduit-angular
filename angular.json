@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "conduit-angular"
+    }
+  },
+  "defaultProject": "conduit-angular",
+  "cli": {
+    "analytics": false
+  }
 }
