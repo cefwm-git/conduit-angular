@@ -14,8 +14,13 @@ const routes: Routes = [
     component: AuthComponent
   },
   {
-    path: '',
+    path: 'home',
     component: HomeComponent
+  },
+  {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: '/home'
   }
 ];
 
