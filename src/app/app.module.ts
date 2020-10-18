@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { AuthComponent } from './components/auth/auth.component';
 import { ArticleListComponent } from './components/article-list/article-list.component';
+import { TagListComponent } from './components/tag-list/tag-list.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { ArticleListComponent } from './components/article-list/article-list.com
     HomeComponent,
     AuthComponent,
     ArticleListComponent,
+    TagListComponent,
     AppComponent
   ],
   imports: [
