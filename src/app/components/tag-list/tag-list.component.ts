@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TagListComponent implements OnInit {
 
+  public tags: string[] = [
+    'tag1',
+    'tagB'
+  ];
+
   constructor() { }
 
   ngOnInit(): void {
