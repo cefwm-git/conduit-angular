@@ -12,3 +12,16 @@
   font-size: 1.2em;
   font-family: Helvetica, sans-serif;
 }
+nav {
+  border-bottom: 1px solid lightgray;
+}
+nav a {
+  display: inline-block;
+  font-size: 0.9em;
+  padding: 1em;
+  color: gray;
+}
+nav a.active {
+  color: green;
+  border-bottom: 2px solid green;
+}

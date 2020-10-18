@@ -6,3 +6,24 @@
     Um lugar para você compartilhar todo o seu conhecimento!
   </p>
 </div>
+<div class="container">
+  <div>
+    <nav>
+      <a
+        routerLink="my-feed"
+        routerLinkActive="active"
+      >
+        Meu feed
+      </a>
+      <a
+        routerLink="global-feed"
+        routerLinkActive="active"
+      >
+        Feed global
+      </a>
+    </nav>
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>
